@@ -27,6 +27,6 @@ namespace project_ARKANOID
                 ChangeDirection();
         }
         public virtual void SpeedupPlatform() => speed += 2;
-        public void ResetSpeed() => speed = 3;
+        public void ResetSpeed() => speed = 7;
     }
 }
